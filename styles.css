@@ -1,0 +1,80 @@
+h1 {
+  color: blue;
+  font-size: 34px;
+  text-align: center;
+  padding: 20px;
+  #background-color: teal;
+  #border: 2px solid black;
+}
+
+h2 {
+  color: blue;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  color: blue;
+  font-size: 24px;
+  text-align: center;
+}
+
+div {
+  color: black;
+  text-align: center;
+}
+
+/*CSS selector for div*/
+.content {
+  color: black;
+  #font-weight: bold;
+  #background-color: yellow;
+}
+
+/*CSS selector for IDs*/
+#intro {
+  font-weight: bold;
+}
+
+li {
+  color: black;
+  float: center;
+  #text-align: center;
+}
+
+ol {
+  color: black;
+  float: center;
+  #text-align: center;
+}
+
+.images_grid {
+  padding: 20px;
+}
+
+.images_grid_image {
+  width: 20%;
+  height: 20%;
+  padding: 20px;
+}
+
+#inheritance .difficult, #inheritance .medium, #inheritance .easy {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.easy {
+  background-color: green;
+}
+
+.medium {
+  background-color: orange;
+}
+
+.difficult {
+  background-color: red;
+}
